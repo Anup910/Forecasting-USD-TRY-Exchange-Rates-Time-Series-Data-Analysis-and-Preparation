@@ -7,9 +7,13 @@ This project delivers a comprehensive time series analysis and forecasting frame
 # Key Highlights
 
 **Statistical Tests & Diagnostics**: Stationarity checks (ADF, KPSS), trend analysis (Hodrick-Prescott filter), and Kruskal-Wallis tests for median differences.
+
 **Exploratory Data Analysis (EDA)**: STL Decomposition for trend and seasonality, and insights on price trends, moving averages, and volatility metrics.
+
 **Predictive Modeling**: ARIMA and SARIMA models with optimized parameters, validated using TimeSeriesSplit and cross-validation.
+
 **Model Comparison**: In-depth evaluation with Ljung-Box tests and confidence interval visualizations for reliable forecasts.
+
 **Backtesting & Performance**: Rolling-window backtesting to assess model stability (ARIMA) and trend sensitivity (SARIMA), highlighting key trade-offs in forecasting.
 This project is ideal for anyone looking to apply rigorous time series forecasting methods to real-world financial data, blending data analysis with advanced model evaluation.
 
@@ -76,8 +80,11 @@ Modeling Steps
 A comprehensive comparison between ARIMA and SARIMA models was conducted to understand their forecasting effectiveness. Key elements of the comparison:
 
 **Training Set Predictions**: Visualized in-sample predictions to check model fit.
+
 **Out-of-Sample Forecasting (30-Day)**: Compared 30-day forecasts for both models, including confidence intervals.
+
 **Ljung-Box Test**: Performed residual diagnostics to validate model assumptions.
+
 **Forecast Accuracy Metrics**: Compared MAE, RMSE, and Mean Absolute Percentage Error (MAPE) to assess model performance.
 
 # 8. Conclusion and Future Work
