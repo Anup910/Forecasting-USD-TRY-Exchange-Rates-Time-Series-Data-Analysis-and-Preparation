@@ -63,6 +63,7 @@ Before modeling, several statistical tests were applied to assess stationarity, 
 The predictive modeling notebook includes detailed steps for implementing ARIMA and SARIMA models, model tuning, and comparative analysis.
 
 Modeling Steps
+
 **1.Time Series Cross-Validation**: Used TimeSeriesSplit to evaluate model performance with a cross-validation approach specific to time series data.
 
 **2.ARIMA Modeling**:
