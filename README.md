@@ -20,7 +20,9 @@ Time Series Data Analysis and Preparation - Covers data retrieval, preprocessing
 The dataset consists of daily USD/TRY exchange rate data retrieved from Yahoo Finance. This dataset includes key price metrics like:
 
 Open, High, Low, Close prices
+
 Volume of trades
+
 Adjusted Close for split or dividend-adjusted prices
 
 # 3. Data Preprocessing
